@@ -1,4 +1,3 @@
---Lista de Exercícios Moodle 2
 import Data.Char
 
 --1
@@ -63,7 +62,6 @@ repetir 0 _ = []
 repetir n e = e : repetir (n-1) e
 
 --14
---notação posicional: valor associado a digitos e caracteres, correspondetes de alguma forma
 numString a = inv (numString' a)
 numString' 0 = []
 numString' a = chr((rem a 10) + 48):numString' (div a 10)
